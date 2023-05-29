@@ -112,7 +112,7 @@ async def help(ctx):
 
 
 
-bot.run(config.TOKEN)
+bot.run(os.environ.get("TOKEN"))
 
 
 
